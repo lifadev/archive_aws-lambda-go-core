@@ -130,5 +130,5 @@ type Context struct {
 	// execution is set at the time the Lambda function is created. Information
 	// about the remaining time of function execution can be used to specify
 	// function behavior when nearing the timeout.
-	RemainingTimeInMillis func() int64
+	RemainingTimeInMillis func() int64 `json:"-"`
 }
