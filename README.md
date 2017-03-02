@@ -9,7 +9,8 @@
 [![Api][badge-api]][eawsy-api]
 [![Status][badge-status]](#top)
 [![License][badge-license]](LICENSE)
-[![Chat][badge-chat]][eawsy-chat]
+[![Help][badge-help]][eawsy-chat]
+[![Social][badge-social]][eawsy-twitter]
 
 [AWS Lambda][aws-lambda-home] lets you run code without provisioning or managing servers. With 
 [eawsy/aws-lambda-go-shim][eawsy-runtime], you can author your Lambda function code in Go. This project provides type 
@@ -26,9 +27,6 @@ go get -u -d github.com/eawsy/aws-lambda-go-core/...
 
 ```go
 package main
-
-// /* Required, but no C code needed. */
-import "C"
 
 import (
 	"encoding/json"
@@ -128,8 +126,8 @@ affiliates in the United States and/or other countries.
 [aws-home]: https://aws.amazon.com
 [aws-lambda-home]: https://aws.amazon.com/lambda
 
-
-[badge-api]: http://img.shields.io/badge/api-godoc-7986cb.svg?style=flat-square
-[badge-chat]: http://img.shields.io/badge/chat-gitter-e91e63.svg?style=flat-square
-[badge-status]: http://img.shields.io/badge/status-stable-689f38.svg?style=flat-square
-[badge-license]: http://img.shields.io/badge/license-apache-757575.svg?style=flat-square
+[badge-api]: http://img.shields.io/badge/api-godoc-3F51B5.svg?style=flat-square
+[badge-status]: http://img.shields.io/badge/status-stable-4CAF50.svg?style=flat-square
+[badge-license]: http://img.shields.io/badge/license-apache-FF5722.svg?style=flat-square
+[badge-help]: http://img.shields.io/badge/help-gitter-E91E63.svg?style=flat-square
+[badge-social]: http://img.shields.io/badge/social-twitter-03A9F4.svg?style=flat-square
